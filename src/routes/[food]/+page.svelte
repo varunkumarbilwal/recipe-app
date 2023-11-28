@@ -9,6 +9,20 @@
     console.log(foodRecipe.name);
 </script>
 
+<header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto mt-10 flex flex-wrap p-5 flex-col md:flex-row items-left">
+      <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        
+        <span class="ml-1 text-2xl">Recipe App</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        
+      </nav>
+      <a href="/" class="inline-flex items-center bg-gray-800 border-0 py-3 px-4 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Back
+      </a>
+    </div>
+  </header>
+
 <section class="text-gray-400 bg-gray-900 body-font">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
