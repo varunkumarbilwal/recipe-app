@@ -6,7 +6,6 @@
 </svelte:head>
 
 <script>
-	var link = '';
 	
 	import { recipes } from './data.js';
 	
@@ -14,15 +13,14 @@
 	
 	<header class="text-gray-400 bg-gray-900 body-font">
 		<div class="container mx-auto mt-10 flex flex-wrap p-5 flex-col md:flex-row items-left">
-		  <a href="{link}" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+		  <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
 			
 			<span class="ml-1 text-2xl">Recipe App</span>
 		  </a>
 		  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
 			
 		  </nav>
-		  <button class="inline-flex items-center bg-gray-800 border-0 py-3 px-4 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Add Recipe
-		  </button>
+		  
 		</div>
 	  </header>
 	
